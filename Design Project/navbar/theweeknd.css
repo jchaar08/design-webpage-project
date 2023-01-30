@@ -1,0 +1,68 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:mediumorchid;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+}
+
+li {
+    display: inline;
+    float:left;
+    border-right: 1px solid whitesmoke;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color:mediumorchid;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+li a:hover {
+    background-color:lightblue;
+}
+
+.active {
+    background-color:orchid;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+h1 { 
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    position: relative;
+    background-color: peachpuff;
+    border: 1px peachpuff;
+    border-radius: 5px;
+    width: 100%;
+    height: inherit;
+}
+
+h1 a {
+  background: black;
+  display: block;
+  text-decoration: none;
+  letter-spacing: 30px;
+  color: white;
+}
+
+.navbar {
+    position: relative;
+}
+
+.theweeknd {
+    position: relative;
+    left: 200px;
+}
